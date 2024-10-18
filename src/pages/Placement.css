@@ -1,0 +1,45 @@
+.placement-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the page */
+}
+
+.placement-summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.placement-box {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.graphs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.graph {
+  flex: 1 1 45%; /* Allow graphs to take up 45% of the width, wrap on smaller screens */
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  border-radius: 5px;
+  background-color: #fff;
+  max-width: 600px;
+  min-width: 300px; /* Ensure a minimum size for small screens */
+}
+
+.graph h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}

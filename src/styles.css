@@ -1,0 +1,224 @@
+/* styles.css */
+header {
+  background-color: #0978b9;
+  color: white;
+  padding-left: 20px;
+  text-align: center;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+body{
+  margin: 0px;
+ 
+}
+button {
+  background-color: #285e98;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.home_body h2{
+  text-align: center;
+}
+.home_body h1{
+  text-align: center;
+  margin: 2px;
+  font-size: 100px;
+  font-weight: 900;
+  background-image: url('./material/VESIT.jpg');
+  background-size: contain;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+}
+
+nav{
+  display: flex;
+  
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 0.5;
+  /* justify-content: space-between; */
+}
+nav a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #000000;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px ;
+  width: 300px;
+  box-shadow: 12px 9px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  background-color: white;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  /* border-radius: 8px 8px 0 0; */
+}
+
+.card-content {
+  padding: 10px;
+  text-align: left; /* Align text to the left */
+  flex-grow: 1; /* Allow content to take up available space */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #0978b9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.my_card{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.department-page {
+  display: flex;
+  flex-direction: column; /* Stack the department navigation vertically */
+}
+
+.content-layout {
+  display: flex;
+  flex-grow: 1;
+  /* width: max-content; */
+  height: 100vh;
+}
+
+.department-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #1a3e54;
+  color: white;
+}
+
+.department-nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.department-nav ul li {
+  margin: 0 15px;
+}
+
+.department-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.department-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.sidebar {
+   /* Set a fixed width for the sidebar */
+  background-color: #f4f4f4; /* Optional: Add a background color */
+  /* width: 20%;
+  background-color: #ececec; */
+  /* padding: 10px;
+  height: 100vh; Full height for sidebar */
+  padding: 20px;
+  width: 200px;
+  /* position: fixed; */
+  top: 0;
+  bottom: 0;
+  height: 100vh; 
+  
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar ul li:hover {
+  background-color: #ddd;
+}
+
+.main-content {
+  flex-grow: 1;
+  
+  padding: 20px;
+  background-color: #fff;
+}
+.sidebar-content {
+  /* flex-grow: 1; */
+  background-color: #fff;
+}
+
+.department-details {
+  margin-left: 20px; /* Add margin to push the content right of the sidebar */
+  padding: 20px;
+}
+
+.hod_desk {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hod_text {
+  flex: 2;
+}
+
+.hod_image {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.hod_image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
